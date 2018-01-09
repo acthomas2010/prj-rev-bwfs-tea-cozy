@@ -1,0 +1,163 @@
+/* USE TO SEE LAYOUT OF DIVS
+
+div {
+  border: 1px solid pink;
+}
+
+*/
+
+/* UNIVERSAL STYLES */
+
+body {
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  opacity: .9;
+  text-align: center;
+  align-items: center;
+  color: seashell;
+}
+
+
+
+.content {
+  padding-top: 70px;
+  margin: 0 auto 70px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  padding-bottom: 10px;
+  background-color: black;
+  top: 0px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  height: 50px;
+  padding-left: 10px;
+}
+
+header a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  margin-right: 10px;
+}
+
+header nav {
+  padding-right; 44px;
+}
+
+
+/* OUR MISSON */
+
+.mission.image-content {
+  background-image: url("/Users/Adam/projects/teacozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+}
+
+h2,h3,h4 {
+  background-color: black;
+  margin: 0px;
+  padding: 10px;
+}
+
+/* TEA OF THE MONTH */
+
+.totm.image-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.totm.image-content .fbbt,.srt,.sd,.mat,.bbt {
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+}
+
+.totm {
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+/* LOCATIONS */
+
+.locations.image-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  background-image: url("/Users/Adam/projects/teacozy/resources/images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.locations h2 {
+  background-color: transparent;
+}
+
+.address h3 {
+  opacity: 1;
+}
+
+.address {
+  width: 300px;
+  height: 300px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.flex-locations {
+  display:  flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.address {
+  opacity: 1;
+}
+
+/* BOTTOM CONTENT */
+
+.bottom-content {
+  height: 200px;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+}
